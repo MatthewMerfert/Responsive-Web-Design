@@ -102,7 +102,7 @@ td{
 
     section, 
     aside{
-        padding: 10px;
+        padding: 0;
         margin: 10px;
         border: 2px solid gold;
         border-radius: 10px;
@@ -151,7 +151,7 @@ td{
 
     .tstyle{
         border: 2px solid gold;
-        padding: 10px;
+        padding: 1px;
         margin: 10px;
         border-radius: 10px;
     }
