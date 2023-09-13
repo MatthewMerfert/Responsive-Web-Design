@@ -1,0 +1,170 @@
+body{
+    background-color: blueviolet;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+h1,
+h2,
+h3{
+    color: greenyellow;
+    text-align: center;
+}
+
+#container{
+    background-color: blueviolet;
+}
+
+nav{
+    background-color: blueviolet;
+    padding: 2px 0;
+    text-align: center;
+}
+
+nav ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li{
+    display: block;
+    border-bottom: 2px solid gold;
+}
+
+nav li a{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    background-color: blueviolet;
+    color: greenyellow;
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 5px 0;
+}
+
+nav li a :hover{
+    background-color: blueviolet;
+    color: greenyellow;
+    border-color: gold;
+}
+
+main{
+    padding: 20px;
+}
+
+.tstyle{
+    padding: 10px;
+    border-top: 2px solid gold;
+}
+
+footer{
+    background-color: blueviolet;
+    color: greenyellow;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px;
+}
+
+.bullet {
+    color: goldenrod;
+    text-shadow: 1px 1px 1px red;
+}
+
+table{
+    border: gold;
+}
+
+tr,
+td{
+    border: 4px solid gold;
+}
+
+@media (min-width: 786px) {
+    nav li{
+        display: inline-block;
+        border: 0;
+    }
+
+    nav li a{
+        width: 150px;
+        margin: 0 5px;
+        border-radius: 10px;
+        border: 2px solid gold;
+    }
+
+    main{
+        display: flex;
+    }
+
+    section, 
+    aside{
+        padding: 10px;
+        margin: 10px;
+        border: 2px solid gold;
+        border-radius: 10px;
+    }
+
+    section{
+        width: 70%;
+    }
+
+    aside{
+        width: 30%;
+    }
+
+    .tstyle img{
+        width: 75%;
+    }
+
+    .bullet{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .single_page{
+        width: 100%;
+    }
+
+    table img{
+        width: 100%;
+    }
+}
+
+@media (min-width: 1024px) {
+    #container{
+        width: 65%;
+        margin: 20px auto;
+    }
+    
+    nav li a{
+        background-color: blueviolet;
+        border: 0;
+    }
+
+    #lower_area{
+        display: flex;
+    }
+
+    .tstyle{
+        border: 2px solid gold;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+    .single_page{
+        width: 100%;
+    }
+
+    section img{
+        width: 75%;
+    }
+    
+    table img{
+        width: 100%;
+    }
+}
